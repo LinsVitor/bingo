@@ -151,15 +151,13 @@ button {
   }
 }
 
-@media (height <=680px),
-screen and (orientation: portrait) {
+@media (width <=820px) {
   .host {
     display: none;
   }
 }
 
-@media (height >=992px),
-screen and (orientation: landscape) {
+@media (width >=1180) {
   .player {
     display: none;
   }
